@@ -52,7 +52,7 @@ return (
                 <label htmlFor="password">Password</label>
                 <input type="password" id="password" name="password" value={formData.password} onChange={handleChange} />
             </div>
-            <button type="submit" className="register-button">Submit</button>
+            <button type="submit" className="register-button button">Submit</button>
         </form>
     </div>
 );
